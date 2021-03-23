@@ -16,6 +16,7 @@ MERISE est une méthode de conception, de développement et de réalisation de p
 - les attentes
 - traitements
 ## F- Merise en entreprise
+Merise est systémique
 **Système d'information vs Système d'information informatisée**
 
 ```mermaid
