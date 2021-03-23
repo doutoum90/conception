@@ -20,10 +20,10 @@ MERISE est une méthode de conception, de développement et de réalisation de p
 
 ```mermaid
 graph TD
-A[Sous-syteme de Pilotage] -- Link text --> B[Sous-syteme de d'information]
-B -- Link text--> A
-B-- Link text--> C[Sous-syteme operant]
-C -- Link text--> B
+A[Sous-syteme de Pilotage] --> B[Sous-syteme de d'information]
+B --> A
+B--> C[Sous-syteme operant]
+C --> B
 ```
 - Sous-syteme de Pilotage: reflexion, decision, controle.
 - Sous-syteme de d'information: production, memorisation,comm, traitement ....
