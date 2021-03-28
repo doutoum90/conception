@@ -1,3 +1,32 @@
+**<u>Etude de cas 1:</u>**
+
+Votre oncle, restaurateur, vous demande de lui réaliser un logiciel de gestion des commandes de repas. Voici les indications qu’il vous donne :
+
+Il souhaite pouvoir gérer certaines informations concernant ses employés : nom, prénom, adresse complète, téléphone et diplôme.
+
+Au niveau de la prise de commande, il souhaite savoir si elle porte sur le service de midi ou celui du soir et à quelle date elle a été passé.
+
+Pour certains calculs statistiques, il souhaite aussi savoir quelle table a passé la commande et quel serveur l’a prise.
+
+La carte du restaurant propose l’ensemble des plats d’entrées, principaux et desserts. Les menus proposés sont un assemblage des plats à la carte. La carte des vins propose une sélection de vins qui sont stockés dans la cave du restaurant. Votre oncle désire connaître pour chaque bouteille son millésime, sa date d’achat, son prix d’achat et son prix de vente. Il voudrait aussi saisir pour chaque cru les informations concernant le viticulteur (nom, prénom, adresse complète, téléphone). A l’heure actuelle, votre oncle, amoureux du vin, met sur chaque goulot de chaque bouteille une étiquette contenant le prix d’achat ainsi que la date d’achat. Votre système doit pouvoir remplacer ce traitement manuel.
+
+Ensuite, certaines boissons comme les apéritifs, les digestifs, les sodas ou les cafés sont gérés de façon simpliste juste par leur libellé et leur prix de vente. Chaque serveur prenant une commande saisit l’ensemble des informations sur un PocketPC qui transmet la commande via Wiki sur un ordinateur central.
+
+
+**Travail à faire :**
+
+- Établir un dictionnaire de données.
+- Identifier les DF.
+- Établir le Modèle Conceptuel de Données. 
+
+**Correction**
+
+| Nom | Format | Longueur | T Elementaire | T Calculé | R.Calcul | R.Gestion | Document |
+| --- | :----: | -------: | ------------- | --------- | -------- | --------- | -------- |
+|     |        |          |               |           |          |           |          |
+
+
+
 **Énoncé :**
 
 Vous avez été contacté par le directeur d'une bibliothèque municipale qui désire informatiser sa gestion. Il compte beaucoup sur la mise en place d'un système informatique pour améliorer la qualité du service offert aux usagers.
@@ -14,13 +43,21 @@ La gestion des prêts implique qu'on connaisse à tout moment la liste des livre
 
 Les prêts sont accordés pour une durée de 15 jours éventuellement renouvelable, si aucune demande de ce livre n'a eu lieu entre-temps. IL faut donc connaître pour chaque livre emprunté, la date du prêt et la date de retour. La gestion des prêts nécessite aussi la mémorisation des livres demandés par un abonné. Cet abonné sera prioritaire lors du retour du livre en prêt. Sa priorité est maintenue pendant une semaine, à partir de la date de retour du livre.
 
-
 **Travail à faire :**
 
 - Établir un dictionnaire de données.
-- Identifier les règles de gestion.
+- Identifier les DF.
 - Établir le Modèle Conceptuel de Données. 
-- Déduire le Modèle Relationnel de Données. 
-
 
 // [Source](www.exelib.net): www.exelib.net
+
+**Correction**
+
+| Nom | Format | Longueur | T Elementaire | T Calculé | R.Calcul | R.Gestion | Document |
+| --- | :----: | -------: | ------------- | --------- | -------- | --------- | -------- |
+|     |        |          |               |           |          |           |          |
+
+
+
+
+
