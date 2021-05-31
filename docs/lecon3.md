@@ -1,4 +1,4 @@
-# Leçon 4: Model logique des données
+# Leçon 3: Model logique des données
 
 ## I - Régles de passage
 
