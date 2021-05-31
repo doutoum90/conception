@@ -1,14 +1,9 @@
 
 # I- MERISE
-## A-Introduction
-## B - Merise en entreprise
-## C- Le schéma directeur
-## D- L'étude préalable
-## E- L'étude détaillée
-
-### 1- Modèle Conceptuel de données : MCD
-### 2- Modèle Logique des données : MLD
-### 3- Modèle opérationnel (Physique) des données: MPD
+## 1 - Introduction et rappel
+## 2- Modèle Conceptuel de données : MCD
+## 3- Modèle Logique des données : MLD
+## 4- Modèle opérationnel (Physique) des données: MPD
 
 
 # II- UML

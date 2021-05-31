@@ -206,4 +206,9 @@ Ils permettent d'indiquer les nombres d'occurence maxi et mini des entités impl
 
 
 
-**<u>[Exercices à faire à la maison:](exercice.md)</u>**
+## III- [Etude de cas:](exercice.md)
+
+Mettre en place pour l'étude de cas n°1
+* DD
+* DF
+* MCD
