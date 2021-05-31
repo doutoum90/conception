@@ -21,10 +21,106 @@ Ensuite, certaines boissons comme les apéritifs, les digestifs, les sodas ou le
 
 **Correction**
 
-| Nom | Format | Longueur | T Elementaire | T Calculé | R.Calcul | R.Gestion | Document |
-| --- | :----: | -------: | ------------- | --------- | -------- | --------- | -------- |
-|     |        |          |               |           |          |           |          |
+**1- Dictionnaire des Données**
 
+| Nom                |  Format   | Longueur | T Elementaire | T Calculé | R.Calcul | R.Gestion | Document |
+| ------------------ | :-------: | -------: | ------------- | --------- | -------- | --------- | -------- |
+| IdentifiantEmploye | AlphaNum  |      255 | X             |           |          |           |          |
+| nomEmploye         | AlphaNum  |      255 | X             |           |          |           |          |
+| prénomEmploye      | AlphaNum  |      255 | X             |           |          |           |          |
+| adresseEmploye     | AlphaNum  |      255 | X             |           |          |           |          |
+| téléphoneEmploye   | AlphaNum  |      255 | X             |           |          |           |          |
+| diplômeEmploye     | AlphaNum  |      255 | X             |           |          |           |          |
+| CompAdresseEmploye | AlphaNum  |      255 | X             |           |          |           |          |
+| CodePostalEmploye | AlphaNum  |      255 | X             |           |          |           |          |
+| VilleEmploye       | AlphaNum  |      255 | X             |           |          |           |          |
+| IdentifiantBout    | AlphaNum  |      255 | X             |           |          |           |          |
+| MillesimeBout      | AlphaNum  |      255 | X             |           |          |           |          |
+| DateAchatBout      |   Date    |          | X             |           |          |           |          |
+| PrixAchatBout      | Numerique |          | X             |           |          |           |          |
+| PrixVenteBout      | Numerique |          | X             |           |          |           |          |
+| IdentifiantViti    | AlphaNum  |      255 | X             |           |          |           |          |
+| NomViti            | AlphaNum  |      255 | X             |           |          |           |          |
+| PrenomViti         | AlphaNum  |      255 | X             |           |          |           |          |
+| AdresseViti        | AlphaNum  |      255 | X             |           |          |           |          |
+| CodePostalViti     | AlphaNum  |      255 | X             |           |          |           |          |
+| VilleViti          | AlphaNum  |      255 | X             |           |          |           |          |
+| TelephoneViti      | AlphaNum  |      255 | X             |           |          |           |          |
+| IdentifiantTable   | AlphaNum  |      255 | X             |           |          |           |          |
+| CapaciteTable         | Numérique |      255 | X             |           |          |           |          |
+| IdentifiantBoisson | AlphaNum  |      255 | X             |           |          |           |          |
+| DesignationBoisson | AlphaNum  |      255 | X             |           |          |           |          |
+| prixVenteBoisson   | Numérique |          | X             |           |          |           |          |
+| IdentifiantMenu    | AlphaNum  |      255 | X             |           |          |           |          |
+| DesignationMenu    | AlphaNum  |      255 | X             |           |          |           |          |
+| prixVenteMenu      | Numérique |          | X             |           |          |           |          |
+| IdentifiantPlat    | AlphaNum  |      255 | X             |           |          |           |          |
+| DesignationPlat    | AlphaNum  |      255 | X             |           |          |           |          |
+| PrixPlat           | Numérique |          | X             |           |          |           |          |
+| NumeroTypePlat     | AlphaNum  |      255 | X             |           |          |           |          |
+| TypePlat     | AlphaNum  |      255 | X             |           |          |           |          |
+| DatePriseCommande  |   Date    |          | X             |           |          |           |          |
+| NumeroCommande     | AlphaNum  |      255 | X             |           |          |           |          |
+| TypeService     | AlphaNum  |      255 | X             |           |          |           |          |
+
+**2- Dépendances fonctionnelles**
+
+a - DFP
+
+IdentifiantEmploye -> (nomEmploye, prénomEmploye, adresseEmploye, CompAdresseEmploye, CodePostalEmploye, VilleEmploye, téléphoneEmploye, diplômeEmploye)
+
+IdentifiantBout -> (DateAchatBout, PrixAchatBout)
+
+IdentifiantVin -> (NomVin, MillesimeBout, PrixVenteBout)
+
+IdentifiantViti -> (NomViti, PrenomViti, AdresseViti, CodePostalViti, VilleViti, TelephoneViti)
+
+IdentifiantTable ->(CapaciteTable)
+
+IdentifiantBoisson -> (DesignationBoisson, prixVenteBoisson)
+
+IdentifiantMenu -> (DesignationMenu, prixVenteMenu)
+
+IdentifiantPlat -> (DesignationPlat, PrixPlat)
+
+IdentifiantTypePlat -> (DesignationTypePlat)
+
+b - DFI
+
+Explication:
+Plat
+1 Chourba 250
+2 nachif 500
+3 coca 500
+4 loubiya 250
+5 kibde 500
+6 salade 500
+
+platMenu
+1 5 dateAujourdhui
+2 5 dateAujourdhui
+3 5 dateAujourdhui
+4 6 dateHier
+5 6 dateHier
+6 6 dateHier
+
+Menu
+5 BAMIA 1000
+6 Menu2 3000
+
+01/01/2021 Midi 5 750
+
+
+IdentifiantPlat -> TypePlat
+
+IdentifiantCmd-> (DatePriseCommande,TypeService, IdentifiantEmploye, NumTable)
+
+(IdentifiantCmd, IdentifiantBoisson)-> qteBoisson
+(IdentifiantCmd, IdentifiantVin)-> qteVin
+(IdentifiantCmd, IdentifiantPlat)-> qtePlat
+(IdentifiantCmd, IdentifiantMenu)-> qteBoisson
+
+**3- MCD**
 
 
 **Énoncé :**
