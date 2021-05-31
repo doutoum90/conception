@@ -1,1 +1,1 @@
-## Leçon 6: 
+## Leçon 6: SQL: Langage de Défintion des Données

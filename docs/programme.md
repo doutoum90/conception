@@ -1,13 +1,15 @@
 
 # I- MERISE
-## 1 - Introduction et rappel
+## 1- Introduction et rappel
 ## 2- Modèle Conceptuel de données : MCD
 ## 3- Modèle Logique des données : MLD
 ## 4- Modèle opérationnel (Physique) des données: MPD
+## 5- Verification: Les formes normales
+## 6- SQL: LDD
 
 
 # II- UML
-## A - Quelques diagrammes
+## A- Quelques diagrammes
 ### 1- Diagramme de classe
 ### 2- Diagramme de séquence
 ### 3- Diagramme d'activité

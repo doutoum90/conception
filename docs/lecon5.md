@@ -1,1 +1,1 @@
-## Leçon 5:
+## Leçon 5: Verification du model: Les formes normales
