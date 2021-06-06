@@ -132,6 +132,39 @@ Menu
 
 [Le MLD en pdf](../pdfs/mld.pdf)
 
+**5- MPD**
+
+Employers(<u>IdentifantEmpl</u>, nomEmpl, prenomEmpl, adresseEmpl, compAdresseEmpl, CpEmpl, VilleEmpl, DiplomeEmpl)
+
+Commandes(<u>IdCommandes</u>, Date, #IdentifantEmpl, #IdentifantPlat, #IdentifiantTable, #IdentifiantTService)
+
+Plats(<u>IdentifantPlats</u>, designationPlats, prixVentePlats, #IdTypePlats)
+
+Menus(<u>IdentifiantMenu</u>, designationMenu, prixVenteMenu)
+
+CommandeContientBoisson(<u>IdCommandes</u>, <u>IdentifiantBoissons</u>, qte)
+
+Boissons(<u>IdentifiantBoissons</u>, designationBoissons, prixVenteBoissons)
+
+CommandeContientVins(<u>IdentifiantVins</u>, <u>IdCommandes</u>, qte)
+
+CommandesContienMenu(<u>IdentifiantMenu</u>, <u>IdCommandes</u>)
+
+Bouteilles(<u>IdentifiantBouteillles</u>, #IdentifiantVins, #IdentifiantViticulteurs)
+
+MenuContientPlats(<u>IdentifantPlat</u>, <u>IdentifiantMenu</u>)
+
+Tables(<u>IdentifiantTable</u>, capacite)
+
+TypeService(<u>IdentifiantTService</u>)
+
+Viticulteurs(<u>IdentifiantViticulteurs</u>, nomViti, prenomViti, adresseViti, compAdresseViti, CpViti, VilleViti, phoneViti)
+
+TypePlats(<u>IdTypePlats</u>, designationTPlats)
+
+Vins(<u>IdentifiantVins</u>, milVins, PrixVins)
+
+
 # Etude de cas 2:
 
 Vous avez été contacté par le directeur d'une bibliothèque municipale qui désire informatiser sa gestion. Il compte beaucoup sur la mise en place d'un système informatique pour améliorer la qualité du service offert aux usagers.

@@ -5,6 +5,9 @@ Il s'agit de transformer chaque entité issue de MLD en une rélation en ce Form
 
 NomRelation(<u>ID</u>, prop1, prop2, prop3, .....)
 
+
+Employers(<u>IdentifantEmpl</u>, nomEmpl, prenomEmpl, adresseEmpl, compAdresseEmpl, CpEmpl, VilleEmpl, DiplomeEmpl)
+
 Ou 
 * NomRelation est le nom de la rélation.
 * ID est l'identifiant de la rélation.
