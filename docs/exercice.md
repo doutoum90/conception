@@ -126,7 +126,11 @@ Menu
 
 **3- MCD**
 
-[Le MCO en pdf](../pdfs/mcd.pdf)
+[Le MCD en pdf](../pdfs/mcd.pdf)
+
+**3- MLD**
+
+[Le MLD en pdf](../pdfs/mld.pdf)
 
 # Etude de cas 2:
 
